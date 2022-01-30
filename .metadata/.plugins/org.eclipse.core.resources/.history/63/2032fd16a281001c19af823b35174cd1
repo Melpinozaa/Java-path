@@ -1,0 +1,24 @@
+package sv.edu.udb.ejercicio1;
+import javax.swing.JOptionPane;
+
+public class Ejercicio1 {
+	
+	public static void main(String[] args) {
+		//variables
+		float dollar, eur;
+		
+		
+		
+		JOptionPane.showInputDialog(
+				null, 
+				"What do u want to exchange?"+"\n"+"Dollar to Eur, Write number 1"+"\n"+"Eur to Dollar, write number 2",
+				"Currency exchange",
+				3 );
+		
+		/*JOptionPane.showMessageDialog(
+				null,
+				);	*/
+		
+	}
+
+}

@@ -1,0 +1,54 @@
+package sv.edu.udb.ejercicio1;
+import javax.swing.JOptionPane;
+
+public class Ejercicio1 {
+	
+	public static void main(String[] args) {
+		//variables
+		int option;
+		double amount, total;
+		
+		
+		
+		
+		
+		option = Integer.parseInt(JOptionPane.showInputDialog(
+				null, 
+				//Message
+				"What do u want to convert?"+"\n"+ "\n"+"Write number 1:"+ "\n"+"Dollar to Eur" +"\n"+ "\n"+"Write number 2:"+ "\n"+"Eur to Dollar:" ,
+				//Title
+				"Currency converter",
+				//icon
+				3 ));
+		
+		
+		
+		if(option==1) {
+			amount = Double.parseDouble(JOptionPane.showInputDialog(
+					null, 
+					//Message
+					"enter ur amount in Dollar",
+					//Title
+					"Amount",
+					//icon
+					3 ));
+			
+			total = amount/0.92076792;
+			
+			JOptionPane.showMessageDialog(null, "This is ur convertion"+"\n"+"From dollar to Eur:"+"\n"+total+" EUR", 1);
+			
+		}else if(option==2) {
+			amount = Integer.parseInt(JOptionPane.showInputDialog(
+					null, 
+					//Message
+					"enter ur amount in Eur",
+					//Title
+					"Amount",
+					//icon
+					3 ));
+			
+		}
+		
+	}
+
+}

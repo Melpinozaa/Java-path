@@ -1,0 +1,22 @@
+package sv.edu.udb.ejercicio3;
+
+import javax.swing.JOptionPane;
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+		float totalGrade = 1,
+				grade = 0;
+		
+		int amount = Integer.parseInt(JOptionPane.showInputDialog(null, "Enter number of notes to average",
+				"Grade average",3));
+		
+		while(totalGrade <= amount) {
+			JOptionPane.showMessageDialog(null, "Enter grade "+totalGrade,
+					"Grade"+totalGrade, 3);
+			float n = amount;
+			grade += n;
+		}
+		
+	}
+}

@@ -1,0 +1,14 @@
+package sv.edu.udb.ejercicio1;
+import javax.swing.JOptionPane;
+
+public class Ejercicio1 {
+	
+	public static void main(String[] args) {
+		//variables
+		float dollar, eur;
+		
+		JOptionPane.showMessageDialog(null, "Hola Mel :3");	
+		
+	}
+
+}
